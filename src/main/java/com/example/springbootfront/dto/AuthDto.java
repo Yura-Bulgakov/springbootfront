@@ -1,23 +1,23 @@
 package com.example.springbootfront.dto;
 
 public class AuthDto {
-    private String name;
+    private String username;
     private String password;
 
-    public AuthDto(String name, String password) {
-        this.name = name;
+    public AuthDto(String username, String password) {
+        this.username = username;
         this.password = password;
     }
 
     public AuthDto() {
     }
 
-    public String getName() {
-        return name;
+    public String getUsername() {
+        return username;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {
